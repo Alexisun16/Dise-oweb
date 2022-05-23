@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+.header{
+
+    background-color: rgba(255, 166, 0, 0.925);
+    height: 160px;
+    padding: 20px;
+}
+.header h4{
+    margin:0%;
+    float:right ;
+}
+.header img{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+    border: 2px solid;
+}
+.navegacion{
+    background-color: rgb(243, 123, 11);
+    color: rgb(1, 4, 14);
+    margin-top: -20px;
+    margin-bottom: -15px;
+    
+}
+
+.navegacion li{
+    display: inline-block;
+    border: 1px solid;
+    width: 290px;
+    height: 80px;
+    padding-top: 5px;
+    
+    
+}
+.navegacion a{
+    font-size: 30px;
+    color: rgb(242, 252, 152);
+    text-decoration: none;
+
+
+}
+
+
+
+.grid {
+
+    display: grid;
+    grid-template-areas: "noticias menu";
+    grid-template-columns: 1fr 200px;
+
+}
+
+.noticias{
+
+    grid-area: noticias;
+    padding: 25px;
+
+
+}
+.menu{
+
+    grid-area: menu;
+    background-color: rgb(255, 166, 0);
+
+}
+.img-noticia{
+
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid;
+    margin-left: 10px;
+}
+.cajas{
+
+    background-color: rgb(255, 166, 0);
+    margin: 10px;
+}
+
+.pie_pagina_grid{
+
+    display: grid;
+    grid-template-areas: "footer1" "footer2";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.footer1{
+
+    grid-area: footer1;
+    background-color: rgb(255, 166, 0);
+}
+
+.footer2{
+
+    grid-area: footer2;
+    background-color: black;
+    color: rgb(245, 241, 23);
+    text-align: center;
+    font-size: 25px;
+}
+.subseccion{
+
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.imagen_pie{
+
+    width: 150px;
+    border: 2px solid;
+    margin-top: 20px;
+   
+    
+}
+
+.parrafo{
+    text-align: justify;
+}
+
+.proyecto_privado{
+
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+
+.proyectos{
+    text-align: center;
+ 
+}
+
+.grid_contactanos{
+
+display: grid;
+grid-template-areas: "datos informacion";
+grid-template-columns: 1fr 400px;
+margin: -25px;
+
+}
+.datos{
+    grid-area: datos;
+    background-color: rgb(255, 236, 127) ;
+    padding: 15px 25px ;
+}
+.informacion{
+    grid-area: informacion;
+    padding: 50px 80px;
+    width: 400px;
+}
+.informacion li{
+    margin-left: -40px;
+}
+
+form{
+   width: 100%;
+   padding: 25px;
+}
+
+form label{
+    display: inline-block;
+    width: 300px;
+}
+
+form input{
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+.celular{
+width: 15px;
+height: 15px;
+
+}
+.fijo{
+    width: 15px;
+    height: 15px;
+
+}
+.correo{
+    width: 15px;
+    height: 15px;
+}
+
+.direccion{
+
+    width: 15px;
+    height: 15px;
+}
+
+.facebook{
+    width: 15px;
+    height: 15px;
+}
+
+.WhatsApp{
+    width: 15px;
+    height: 15px;
+}
+
+.Instagram{
+    width: 15px;
+    height: 15px;
+}
+
+.Telegram{
+    width: 15px;
+    height: 15px;
+}
+
+.etiqueta{
+    color: rgb(255, 123, 0);
+}
